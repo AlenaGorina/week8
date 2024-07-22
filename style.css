@@ -1,0 +1,162 @@
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+  font-size: 13px;
+}
+
+.wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.logo {
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(./image/sign.svg);
+  margin-right: 10px;
+}
+
+.header-info button {
+  font-size: 13px;
+  border-radius: 25px;
+  border: #5222d0;
+  background-color: #5222d0;
+  padding: 10px 10px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.wrapper {
+  padding: 60px 0;
+}
+
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  text-align: start;
+}
+
+.wrapper-title {
+  margin-bottom: 24px;
+}
+
+.wrapper-text {
+  margin-bottom: 200px;
+}
+
+.title-1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.btn {
+  font-size: 20px;
+  border-radius: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #5222d0;
+}
+
+. .nav {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 20px 20px 0;
+}
+
+.nav > li {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.nav > li > a {
+  text-decoration: none;
+  color: #5222d0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 30px;
+}
+
+.subscribe {
+  background-color: #ec615b;
+  width: 365px;
+  height: 233px;
+}
+
+.title-h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.grid-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.grid-text {
+  font-size: 15px;
+}
+
+.grid-btn {
+  width: 135px;
+  height: 38px;
+  font-size: 13px;
+  border-radius: 25px;
+  border: #5222d0;
+  background-color: #5222d0;
+  padding: 10px 10px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 5px 5px;
+}
+
+.subscribe input {
+  width: 323 px;
+  height: 50px;
+  margin: 5px 5px;
+  font-size: 20px;
+  border: 1px solid #ffffff;
+}
+
+.nav-footer {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  padding: 20px 20px 0;
+}
+
+.nav-footer > li > a {
+  text-decoration: none;
+  color: #000000;
+}
